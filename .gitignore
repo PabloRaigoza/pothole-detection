@@ -1,0 +1,6 @@
+# ignore test folder and virtual environment folder
+test
+venv
+
+# ignore all .zip files
+*.zip
