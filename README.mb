@@ -1,6 +1,6 @@
 Setup
 
-```
+
 [1]$ python3 -m venv venv
 [2]$ source venv/bin/activate
 [3]$ pip3 install tensorflow
@@ -20,4 +20,3 @@ if incurring errors with opencv:
 [10]$ unzip archive.zip
 [12]$ mkdir test; mv normal test/normal; mv potholes test/potholes
 [11]$ pip3 install scipy
-```
