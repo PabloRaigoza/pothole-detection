@@ -20,3 +20,8 @@ if incurring errors with opencv:
 [10]$ unzip archive.zip
 [12]$ mkdir test; mv normal test/normal; mv potholes test/potholes
 [11]$ pip3 install scipy
+
+make
+- to build learn.py
+make test
+- to build test.py
