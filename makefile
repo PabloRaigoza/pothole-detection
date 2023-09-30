@@ -10,4 +10,6 @@ build:
 	sudo apt-get install python3.6
 	sudo apt install python3-pip
 	sudo apt-get install unzip
+	mkdir test; mv normal test/normal; mv potholes test/potholes
+	unzip archive.zip
 	python3 -m venv venv
