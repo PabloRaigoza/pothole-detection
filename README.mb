@@ -3,6 +3,9 @@ Setup
 
 [1]$ python3 -m venv venv
 [2]$ source venv/bin/activate
+    pip install -r requirements.txt
+
+
 [3]$ pip3 install tensorflow
     -- or --
     pip3 install tensorflow-gpu
