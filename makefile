@@ -1,10 +1,10 @@
 .PHONY: test venv
 
 run:
-	python3 learn.py
+	venv/bin/python3 python3 learn.py
 
 test:
-	python3 test.py
+	venv/bin/python3 test.py
 
 build:
 	sudo apt-get install python3.6
@@ -13,3 +13,4 @@ build:
 	unzip archive.zip
 	mkdir test; mv normal test/normal; mv potholes test/potholes
 	python3 -m venv venv
+	venv/bin/pip3 install -r requirements.txt

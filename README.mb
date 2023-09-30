@@ -1,11 +1,8 @@
 Setup
 Automatic building:
-Download archive.zip into root: https://www.kaggle.com/datasets/atulyakumar98/pothole-detection-dataset?resource=download
-
-1 | make build
-2 | source venv/bin/activate
-3 | pip3 install -r requirements.txt
-5 | make run
+Step 1: Download 'archive.zip' into root: https://www.kaggle.com/datasets/atulyakumar98/pothole-detection-dataset?resource=download
+Step 2: make build
+Step 3: make run
 
 
 
