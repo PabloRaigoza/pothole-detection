@@ -33,7 +33,7 @@ x_train = []
 y_train = []
 
 
-base_dir = r"/home/pedro/pothole/workspace/test"
+base_dir = r"test"
 
 
 datagen = ImageDataGenerator(rescale=1./255)
