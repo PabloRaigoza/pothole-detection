@@ -1,7 +1,8 @@
 Setup
 
 
-[1]$ python3 -m venv venv
+[1]$ sudo apt install python3.10-venv
+---  python3 -m venv venv
 [2]$ source venv/bin/activate
     pip install -r requirements.txt
 
@@ -9,7 +10,7 @@ Setup
 [3]$ pip3 install tensorflow
     -- or --
     pip3 install tensorflow-gpu
-[4]$ apt-get update
+[4]$ sudo apt-get update
 [5]$ pip3 install numpy
 [6]$ pip install opencv-python3
     -- or --
