@@ -1,7 +1,7 @@
 .PHONY: test venv
 
 run:
-	venv/bin/python3 python3 learn.py
+	venv/bin/python3 learn.py
 
 test:
 	venv/bin/python3 test.py
