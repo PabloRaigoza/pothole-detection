@@ -6,6 +6,9 @@ run:
 test:
 	venv/bin/python3 test.py
 
+filter:
+	venv/bin/python3 filter.py
+
 build:
 	sudo apt-get install python3.6
 	sudo apt install python3-pip
